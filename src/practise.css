@@ -1,0 +1,29 @@
+  
+
+  /* #mbl{ */
+
+     /* background-color: aqua;  */
+    /* height: 10vh;
+    width: 100px;
+  } */
+  /* #lap{ */
+     /* background-color: rgb(170, 25, 104);  */
+     /* height: auto;
+     width: 100px;
+    
+    color: aliceblue;
+  } */
+  .main{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .available{
+    background-color: green;
+    
+  }
+  .unavailable{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+  }

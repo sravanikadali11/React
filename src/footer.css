@@ -1,0 +1,39 @@
+footer{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 30px;
+    height:50vh;
+    width:100vw;
+    background-color: black;
+    color: whitesmoke;
+}
+.ftr1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100vw;
+    height:20vh;
+}
+.ftr2{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      width:100vw;
+      height:20vh;
+}
+.ftr3{
+    display:flex;
+    justify-content: space-around;
+   gap:10px;
+}
+.ftr4{
+    display: flex;
+    justify-content: space-around;
+    width: 30vh;
+}
+.fa-xs{
+    font-size: x-large;
+}
