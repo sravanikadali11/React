@@ -10,7 +10,10 @@ import reportWebVitals from "./reportWebVitals";
 // // import Destruct from './destruct';
 // import Notification from './cardsbyprops/notif';
 // import Profile from './cardsbyprops/profile';
-import Footercard from "./cardsbyprops/footercard";
+// import Footercard from "./cardsbyprops/footercard";
+// import State from "./state";
+// import Parent from "./props/task1parent";
+import EventList from "./props/task2par";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,11 +31,13 @@ root.render(
      <Notification type=" download" name="preethi"/> */}
     {/* <Profile name="sravani" role="develpr" gender="female"/> */}
 
-    <Footercard>
+    {/* <Footercard>
       <h1>mobile name</h1>
       <h2>mobile price</h2>
       <h3>jgd;uikdoih</h3>
-    </Footercard>
+    </Footercard> */}
+    {/* <State/> */}
+   <EventList/>
   </React.StrictMode>
 );
 
